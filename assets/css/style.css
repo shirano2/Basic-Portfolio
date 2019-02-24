@@ -1,0 +1,125 @@
+*{
+    color:#777777;
+    font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-align:center;
+    line-height:150%;
+}
+body {
+    padding:0;
+    margin:0;
+    height:100%;
+}
+#wrapper{
+    min-height:100%;
+    margin-bottom:-50px;
+}
+header {
+    background-color:#ffffff;
+    overflow:auto;
+    border-bottom:2px solid #cccccc;
+}
+#header, #contents {
+    box-sizing:border-box;
+    width:960px;
+    margin:0 auto;
+}
+h1 {
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+header h1{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    float:left;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    padding:20px;
+}
+ul {
+    list-style-type:none;
+    float:right;
+    margin-top:30px;
+}
+li {
+    display:inline-block;
+    margin-right:0;
+    margin-left:10px;
+}
+a {
+    text-decoration-line:none;
+}
+a:hover {
+    color:#d2ff0d;
+}
+section {
+    background:url("../images/intersection.png");
+    padding-top:20px;
+    padding-bottom:40px;
+    overflow:auto;
+    clear:both;
+}
+#contents{
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#ffffff;
+}
+section h1{
+    color:#4aaaa5;
+    float:left;
+}
+hr {
+    clear:both;
+}
+img{
+    float:left;
+    margin-right:10px;
+}
+p{
+    text-align:left;
+}
+#push, footer {
+    box-sizing:border-box;
+    height:50px;
+}
+footer {
+    clear:both;
+    background-color:#666666;
+    border-top:5px solid #4aaaa5;
+    padding:10px;
+}
+form > *{
+    box-sizing:border-box;
+    text-align:left;
+}
+form {
+    overflow:auto;
+}
+h2 {
+    margin-bottom:0px;
+}
+input {
+    width:100%;
+}
+input:focus {
+    background-color:#D8ECFF;
+}
+textarea{
+    width:100%;
+    height:300px;
+}
+textarea:focus {
+    background-color:#D8ECFF;
+}
+button {
+    display:block;
+    background-color:#01c99f;
+    color:#ffffff;
+    text-align:center;
+    border-width:0;
+    padding:5px 20px 5px 20px;
+    font-size:20px;   
+    margin-bottom:10px;
+}
+button:hover{
+    background-color:#5c00ce;
+}
