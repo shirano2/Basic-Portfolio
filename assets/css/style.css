@@ -5,8 +5,10 @@
     line-height:150%;
 }
 body {
+    box-sizing:border-box;
     padding:0;
     margin:0;
+    width:100%;
     height:100%;
 }
 #wrapper{
@@ -15,7 +17,7 @@ body {
 }
 header {
     background-color:#ffffff;
-    overflow:auto;
+    overflow:hidden;
     border-bottom:2px solid #cccccc;
 }
 #header, #contents {
@@ -35,27 +37,27 @@ header h1{
     margin-left:0;
     padding:20px;
 }
-ul {
+#header ul {
     list-style-type:none;
     float:right;
     margin-top:30px;
 }
-li {
+#header li {
     display:inline-block;
     margin-right:0;
     margin-left:10px;
 }
-a {
+#header a {
     text-decoration-line:none;
 }
-a:hover {
+#header a:hover {
     color:#d2ff0d;
 }
 section {
     background:url("../images/intersection.png");
     padding-top:20px;
     padding-bottom:40px;
-    overflow:auto;
+    overflow:hidden;
     clear:both;
 }
 #contents{
@@ -70,7 +72,10 @@ section h1{
 hr {
     clear:both;
 }
-img{
+article {
+    padding-bottom:10px;
+}
+article img{
     float:left;
     margin-right:10px;
 }
@@ -84,8 +89,9 @@ p{
 footer {
     clear:both;
     background-color:#666666;
-    border-top:5px solid #4aaaa5;
+    border-top:8px solid #4aaaa5;
     padding:10px;
+    color:#ffffff;
 }
 form > *{
     box-sizing:border-box;
@@ -122,4 +128,35 @@ button {
 }
 button:hover{
     background-color:#5c00ce;
+}
+#contents ul {
+    overflow:hidden;
+    list-style-type:none;
+}
+#images li{
+    position:relative;
+    float:left;
+    margin-right:40px;
+    margin-bottom:40px;
+}
+#images img{
+    width:300px;
+    height:200px;
+}
+#images h1{
+    box-sizing:border-box;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:300px;
+    height:40px;
+    margin:0;
+    position:absolute;
+    top:150px;
+    bottom:50px;
+    left:0px;
+    right:300px;
+    padding:2px;
+}
+#images h1:hover{
+    color:#5c00ce;
 }
